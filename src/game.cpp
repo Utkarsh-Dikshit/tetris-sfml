@@ -346,7 +346,7 @@ void Game::inputHandler(sf::RenderWindow& window)
                 rotateBlock();
                 is_key_pressed_once = true;
             }
-            if (event.key.scancode == sf::Keyboard::Scan::Space && !is_key_pressed_once)
+            if (event.key.scancode == sf::Keyboard::Scan::Space && !is_key_pressed_once && !gameover)
             {
                 // Move the block down to the ghost position
                 curr_block.moveBlock(ghost_block_curr_row, 0);
@@ -489,4 +489,5 @@ void Game::resetGame()
     next_block = getRandomBlock();
     score = 0;
     audio.bg_music.play();
+    is_highscore_updated = false;
 }
