@@ -1,5 +1,4 @@
 #include "header/game.h"
-#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -280,7 +279,7 @@ void Game::rotateBlock()
 bool Game::isBlockOutside()
 {
     // Check if any part of the current block is outside the grid boundaries
-    for (const auto& cell : curr_block.getCellPosition())
+    for (sf::Vector2i cell : curr_block.getCellPosition())
     {
         if (grid.isCellOutside(cell.x, cell.y))
         {
@@ -293,7 +292,7 @@ bool Game::isBlockOutside()
 bool Game::isCurrBlockSpaceFree()
 {
     // Check if all cells of the current block are unoccupied
-    for (const auto& cell : curr_block.getCellPosition())
+    for (sf::Vector2i cell : curr_block.getCellPosition())
     {
         if (grid.grid[cell.x][cell.y] != 0)
         {
@@ -430,7 +429,7 @@ bool Game::isBelowRowEmpty()
     // Check if the row below the current block is empty
     std::vector<sf::Vector2i> tiles = curr_block.getcellPositionForGhostBLock();
     bool is_all_cell_empty = false;
-    for (const auto& item : tiles)
+    for (sf::Vector2i item : tiles)
     {
         if (grid.grid[item.x + 1][item.y] == 0 && item.x + 1 <= 19)
         {
