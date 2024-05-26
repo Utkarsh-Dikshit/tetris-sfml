@@ -1,10 +1,11 @@
 # tetris-sfml
 SFML version of the tetris game
 
-This Tetris game project is created solely for educational purposes. It is intended to serve as a learning resource for understanding game development concepts and practicing programming skills.
+This Tetris sfml game project is created solely for educational purposes. It is intended to serve as a learning resource for understanding game development concepts and practicing programming skills.
 
 ![tetris](https://github.com/Utkarsh-Dikshit/Tetris-game-project/assets/143602487/38da4723-8a4c-4023-97b8-01eb71ed91e4) 
 ![ISO_C++_Logo](https://github.com/Utkarsh-Dikshit/Tetris-game-project/assets/143602487/0c901461-c7b9-49d3-90bc-a099eba06674)
+![sfml-logo-small](https://github.com/Utkarsh-Dikshit/tetris-sfml/assets/143602487/302c0ca5-4c78-46c2-9fe9-bf40559908f4)
 
 ## Tetris Game Features
 ### Gameplay
@@ -24,7 +25,7 @@ This Tetris game project is created solely for educational purposes. It is inten
 - Highscores are stored externally in a .txt file, allowing players to persist their achievements across sessions.
 
 ### External Dependencies
-- Developed using C++ and Raylib, a simple and easy-to-use game development library.
+- Developed using C++ and SFML, a simple and easy-to-use game development library.
 - Utilizes external resources for background images, button icons, music, and sound effects to enrich the gameplay experience.
 
 ### Future Enhancements
