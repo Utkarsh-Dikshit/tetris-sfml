@@ -36,7 +36,7 @@ This Tetris game project combines classic gameplay with modern features, creatin
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-![Back](https://github.com/Utkarsh-Dikshit/Tetris-game-project/assets/143602487/eeb8d3b8-6dd5-4ade-b06a-30d98f69b77e)
+![333902467-2c9bf85a-fa21-4826-95d](https://github.com/Utkarsh-Dikshit/tetris-sfml/assets/143602487/1c2a6ac3-2dab-4626-9a43-741e7f0f5ca1)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
